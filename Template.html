@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<!-- <img src="https://picsum.photos/300/200?random=10" alt=""> -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span class="text-info">Sport</span>Good</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-2" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#HomeCarousel">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ABOUT">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#SERVICES">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#PRODUCT">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#CONTACT">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="HomeCarousel" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#HomeCarousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#HomeCarousel" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#HomeCarousel" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://picsum.photos/1300/700?random=4" class="d-block w-100 " alt="">
+                <div class="carousel-caption mb-3">
+                    <h5>First Simple RWD</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/1300/700?random=2" class="d-block w-100" alt="">
+                <div class="carousel-caption mb-3">
+                    <h5>Second Simple RWD</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/1300/700?random=3" class="d-block w-100" alt="">
+                <div class="carousel-caption mb-3">
+                    <h5>Third Simple RWD</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#HomeCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#HomeCarousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+
+    <div id="ABOUT" class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="about-img">
+                        <img src="https://picsum.photos/400/300?random=7" class="img-fluid rounded" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-8">
+                    <div class="about-text pt-4">
+                        <h1>ABOUT</h1>
+                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, temporibus quia!
+                            Voluptates
+                            ex rerum aliquid dolor eaque facilis, optio expedita quisquam, et magni nam tenetur
+                            voluptatibus reprehenderit, odit eum magnam?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="SERVICES" class="services section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mx-auto">
+                    <div class="header text-center pb-5">
+                        <h1>Our Service</h1>
+                        <h5>Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit.Quos, laborum!</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-2 text-center text-light">
+                <div class="col-12 col-md-12 col-lg-3 p-3 mx-auto bg-dark">
+                    <i class="bi bi-journals fs-1"></i>
+                    <h3>Quality</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae adipisci amet expedita
+                        perspiciatis perferendis ut minus provident labore reiciendis eius!</p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-3 p-3 mx-auto bg-dark">
+                    <i class="bi bi-laptop fs-1"></i>
+                    <h3>Fast</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae adipisci amet expedita
+                        perspiciatis perferendis ut minus provident labore reiciendis eius!</p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-3 p-3 mx-auto bg-dark">
+                    <i class="bi bi-card-checklist fs-1"></i>
+                    <h3>Integrity</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae adipisci amet expedita
+                        perspiciatis perferendis ut minus provident labore reiciendis eius!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="PRODUCT" class="prodcut section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mx-auto">
+                    <div class="header text-center pb-5">
+                        <h1>Our Product</h1>
+                        <h5>Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit.Quos, laborum!</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4 mx-auto p-3 rounded">
+                    <div class="card shadow">
+                        <img src="img/product1.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body d-flex justify-content-around">
+                            <h3 class="card-title">Shirt</h3>
+                            <a href="" class="btn btn-warning"><i class="bi bi-bag-heart-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 mx-auto p-3 rounded">
+                    <div class="card shadow">
+                        <img src="img/product2.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body d-flex justify-content-around">
+                            <h3 class="card-title">Earbuds</h3>
+                            <a href="" class="btn btn-warning"><i class="bi bi-bag-heart-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 mx-auto p-3 rounded">
+                    <div class="card shadow">
+                        <img src="img/product3.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body d-flex justify-content-around">
+                            <h3 class="card-title">Jacket</h3>
+                            <a href="" class="btn btn-warning"><i class="bi bi-bag-heart-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="CONTACT" class="contact section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header text-center pb-5">
+                        <h1 id="CONTACT">Contact Us</h1>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cumque qui in velit voluptates
+                            praesentium?</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-12 p-0 pt-4 pb-4">
+                    <form action="#" class="bg-light p-4 m-auto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" required id="exampleFormControlTextarea1" rows="3"
+                                        placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-warning btn-block ">Send Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white">Simple RWD @minweipan</p>
+        </div>
+    </div>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
